@@ -12,7 +12,7 @@ type CPU struct {
 	L uint8
 	PC uint16 // program counter 
 	SP uint16 // stack pointer
-	Flags uint8
+	Flags ConditionsCodes
 	Memory []uint8	
 }
 
